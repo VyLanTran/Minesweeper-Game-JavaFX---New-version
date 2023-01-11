@@ -1,55 +1,37 @@
-# CSCI 205 - Software Engineering and Design (small change)
-Bucknell University  
-Lewisburg, PA
+# Minesweeper Game (New version) - JavaFX 
+This game is based on the original Minesweeper game (https://minesweeperonline.com/). 
+However, our version contains more accessible user interface and a variety extra features
 
-### Course Info
-Instructor: Prof. King  
-Semester: Fall 2022
+## About the project
+- This project is a group work in which I collaborated with 4 of my friends at Bucknell University
+- Team members: Vy Tran, Clara Chaplin, Kate Douglass, Kona Glenn, and Marion Duval  
 
-## Team 4 Information
-Team Members: Clara Chaplin (Scrum Master), Vy Tran, Kate Douglass (Project Owner), Kona Glenn, & Marion Duval  
+## Installation
+Download the zip file, import it in an IDE and run the file named "MinesweeperMain.java" (path: src/main/java/minesweepermvc/MinesweeperMain.java)
 
-Marion is a sophomore Cell Biology/Biochemistry major and Computer Science minor from Middleton, Massachusetts.  
-Kate is a sophomore Computer Science and Engineering major from West Chester, Pennsylvania.  
-Clara is a sophomore Mathematics and Computer Science double major from Albany, NY.   
-Kona is a sophomore Computer Science and Engineering and Applied Math double major.  
-Vy is a sophomore Computer Science major.
+OR 
 
-## Project Information
-Our team is creating a Minesweeper game with a variety of settings featured in a user-friendly GUI. 
-Features will include different color themes, game board sizes, and difficulty levels. These will
-be selectable by using a drop-down menu. A timer will begin when the player makes the first move, tracking
-how long the player has been playing the game. The number of flags remaining will also be displayed.
-Users will be able to quit or reset the game at any point that a game is in progress. Previous attempts will be
-recorded, and players can try and beat their previous fastest time. Once the game is complete, the user will
-see their final time and their fastest time, and can choose to play again.
+Open the terminal, clone the source code, and run the file named "MinesweeperMain.java"
 
-## How to run it
-To run our Minesweeper game, run MinesweeperMain.main(). Next, a medium-size board will appear
-on the screen. The user can then choose between different game board sizes on one drop down and 
-different color modes on another drop down. Then, the user should click any cell to start the game.
-The number in a cell represents the number of neighboring bombs (vertically, horizontally, or diagonally).
-The goal is to flag any cells that contain a bomb by right-clicking, and left click on any cells that do not 
-contain bombs to show the cell contents. If the user successfully clicks all the non-bomb-containing cells without
-clicking any with bombs, they win!
+## Rules
+- You should click a random cell to start the game
+- When you click on a cell, the hidden value will be open. It can either be a number or a bomb
+- The number in a cell represents the number of neighboring bombs (vertically, horizontally, or diagonally).
+For example, if a cell has 8 cells around it, the value of the cell tells you how many bombs there are
+in those surrounding cells
+- Your goal is to open all non-bomb-containing cells without clicking any with bombs
+- If you click on a cell with bomb, you lose
+- Use logic to guess the position of the bomb. You can left-click to put a flag on the cell you think containing a bomb 
+to avoid opening it by accident. Left-click again to remove the flag
+- A timer will track how long you have been spending on the game
+- The number of flags remaining will be displayed on top
+- Once you complete the game, you will see the result (Win/Lose), your final time, and your best time
+- You can quit or reset the game at any point of the game
 
-Whenever a user wins, clicks on a bomb, or clicks quit, a pop-up appears, displaying the time they took to complete
-their last game along with their best time. The user can then click play again to reset the board or click quit to
-exit the app.
 
-## Package Structure & Libraries
-Within the first level of our csci205_final_project folder, we have our README.md, our java folder, our resources
-folder, and our test folder. All the .git and .gradle files are also found on this level. Finally, we have the 
-design folder holding the pdfs of all of our diagrams and our docs folder holding our scrum report,
-design manual, user manual, and our PowerPoint presentation.
+## Important improvements compared to the original game
+- User-friendly GUI with colorful appearance and buttons that are easy to use
+- There are a variety of color themes and difficulty levels to select
+- There is a label that shows you the brief instruction when you hover it
+- Previous attempts are recorded so that user can try to beat their best performance
 
-Within the java folder, we have a minesweepermvc folder that holds all of our classes. There is a model folder within
-the minesweepermvc folder that holds our MinesweeperModel, along with our Cell class, GameTimer class, GameState enum, 
-and ColorMode enum. We also have our MinesweeperMain class, MinesweeperController class, and our MinesweeperView class
-within the minesweepermvc folder. Within the test folder, we have tests for our Cell class, our MinesweeperModel class, 
-and our GameTimer class. Within the resources folder, we have images of a bomb, a clock, and a red flag, along with our
-FXML files for the board and for the top pane. Finally, we have an instructions.css file to design our instructions pop-up.
-
-External Libraries: JavaFX Version 17
-
-## Video URL
