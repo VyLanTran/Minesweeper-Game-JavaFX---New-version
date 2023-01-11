@@ -35,3 +35,14 @@ to avoid opening it by accident. Left-click again to remove the flag
 - There is a label that shows you the brief instruction when you hover it
 - Previous attempts are recorded so that user can try to beat their best performance
 
+## Screenshots of the game
+<div float="left" class="horizontalgap" style="width:10px">
+  <p>This is the default appearance of the game</p>
+  <br><br>
+  <img width="640" alt="mine2" src="https://user-images.githubusercontent.com/85639418/211701898-a17701e8-4305-4ac5-9987-43bac9404eb2.png">
+  <br><br><br>
+  <p>You can change to a harder level and a different color theme. Hover to read instruction</p>
+  <br><br>
+  <img width="640" alt="mine3" src="https://user-images.githubusercontent.com/85639418/211701945-cf748fa0-23a7-43f7-86c5-3670a0af55be.png">
+</div>
+
