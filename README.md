@@ -43,6 +43,6 @@ to avoid opening it by accident. Left-click again to remove the flag
   <br><br><br>
   <p>You can change to a harder level and a different color theme. Hover to read instruction</p>
   <br><br>
-  <img width="640" alt="mine3" src="https://user-images.githubusercontent.com/85639418/211701945-cf748fa0-23a7-43f7-86c5-3670a0af55be.png">
+  <img width="960" alt="mine3" src="https://user-images.githubusercontent.com/85639418/211702320-56359632-d68e-476c-875e-35e30e40bae8.png">
 </div>
 
