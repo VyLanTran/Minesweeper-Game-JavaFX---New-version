@@ -40,7 +40,7 @@ to avoid opening it by accident. Left-click again to remove the flag
   <p>This is the default appearance of the game</p>
   <img width="640" alt="mine2" src="https://user-images.githubusercontent.com/85639418/211701898-a17701e8-4305-4ac5-9987-43bac9404eb2.png">
   <br><br><br>
-  <p>You can change to a harder level and a different color theme. Hover the question mark label to read instruction</p>
+  <p>You can select a harder level (bigger board) and a different color theme. Hover the question mark label to read instruction</p>
   <img width="960" alt="mine3" src="https://user-images.githubusercontent.com/85639418/211702320-56359632-d68e-476c-875e-35e30e40bae8.png">
 </div>
 
