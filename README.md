@@ -35,7 +35,7 @@ to avoid opening it by accident. Left-click again to remove the flag
 - There is a label that shows you the brief instruction when you hover it
 - Previous attempts are recorded so that user can try to beat their best performance
 
-## Screenshots of the game
+## Images of the game
 <div float="left" class="horizontalgap" style="width:10px">
   <p>This is the default appearance of the game</p>
   <img width="640" alt="mine2" src="https://user-images.githubusercontent.com/85639418/211701898-a17701e8-4305-4ac5-9987-43bac9404eb2.png">
