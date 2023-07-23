@@ -2,9 +2,14 @@
 This game is based on the original Minesweeper game (https://minesweeperonline.com/). 
 However, our version contains more accessible user interface and a variety extra features
 
-## About the project
-- This project is a group work in which I collaborated with 4 of my friends at Bucknell University
-- Team members: Vy Tran, Clara Chaplin, Kate Douglass, Kona Glenn, and Marion Duval  
+## Images of the game
+<div float="left" class="horizontalgap" style="width:10px">
+  <p>This is the default appearance of the game</p>
+  <img width="640" alt="mine2" src="https://user-images.githubusercontent.com/85639418/211701898-a17701e8-4305-4ac5-9987-43bac9404eb2.png">
+  <br><br><br>
+  <p>You can select a harder level (bigger board) and a different color theme. Hover the question mark label to read instruction</p>
+  <img width="960" alt="mine3" src="https://user-images.githubusercontent.com/85639418/211702320-56359632-d68e-476c-875e-35e30e40bae8.png">
+</div>
 
 ## Installation
 Download the zip file, import it in an IDE and run the file named "MinesweeperMain.java" (path: src/main/java/minesweepermvc/MinesweeperMain.java)
@@ -35,12 +40,8 @@ to avoid opening it by accident. Left-click again to remove the flag
 - There is a label that shows you the brief instruction when you hover it
 - Previous attempts are recorded so that user can try to beat their best performance
 
-## Images of the game
-<div float="left" class="horizontalgap" style="width:10px">
-  <p>This is the default appearance of the game</p>
-  <img width="640" alt="mine2" src="https://user-images.githubusercontent.com/85639418/211701898-a17701e8-4305-4ac5-9987-43bac9404eb2.png">
-  <br><br><br>
-  <p>You can select a harder level (bigger board) and a different color theme. Hover the question mark label to read instruction</p>
-  <img width="960" alt="mine3" src="https://user-images.githubusercontent.com/85639418/211702320-56359632-d68e-476c-875e-35e30e40bae8.png">
-</div>
+
+## About the project
+- This project is a group work in which I collaborated with 4 of my friends at Bucknell University
+- Team members: Vy Tran, Clara Chaplin, Kate Douglass, Kona Glenn, and Marion Duval  
 
